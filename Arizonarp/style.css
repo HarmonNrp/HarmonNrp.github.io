@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container-top {
+    background: url(img/photo2.jpeg);
+    width: calc(100vw - 17px);
+    height: 90vh;
+    background-size: cover;
+}
+
+.main {
+    width: calc(100vw - 17px);
+    height: 100vh;
+    display: flex;
+    background: #212121;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 550px;
+}
+
+.main-right > h1 {
+    font-size: 50px;
+}
+
+.main-right > p {
+    font-size: 18px;
+    width: 550px;
+    color: #e2e2e2;
+    line-height: 28px;
+}
+
+
+margin-right__link:hover {
+   color: #fff;
+ 
+}
+
+
+.gallery{
+    width: 900px;
+  display: flex;  
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+
+.gallery__img {
+    width: 270px;
+    height: 270px;
+    margin: 15px;
+    object-fit: cover;
+    transition: 0.5s;
+    
+    
+}
+
+
+
+
+.gallery__img:hover {
+    transform: scale(1.05);
+
+}
+
+
+
+.footer{
+  display: flex;
+justify-content: space-around;
+    background: color #fff;
+    
+    
+}
+
